@@ -180,7 +180,7 @@ BOOL CALLBACK GuitarTuner( HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam
 		return TRUE;
 
 	case WM_COMMAND:
-		if( LOWORD(wParam) == IDEXIT )
+		if( LOWORD(wParam) == IDEXIT || LOWORD(wParam) == WM_DESTROY)
 		{
 			DestroyWindow( hDlg );
 			done = true;
@@ -206,7 +206,17 @@ BOOL CALLBACK GuitarTuner( HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam
 			// 24   Tango Accordian           32   Guitar Harmonics
 			midiOutShortMsg(outHandle, 0x00001AC0);
 
-			if( IsDlgButtonChecked( hDlg, IDC_LOW_E ))
+			if( IsDlgButtonChecked( hDlg, IDC_LOW_FSharp ))
+			{
+				// F# = 30
+				midiOutShortMsg(outHandle, 0x005F1E90);
+			}
+			else if( IsDlgButtonChecked( hDlg, IDC_LOW_B ))
+			{
+				// B = 35
+				midiOutShortMsg(outHandle, 0x007F2390);
+			}
+			else if( IsDlgButtonChecked( hDlg, IDC_LOW_E ))
 			{
 				// E = 40
 				midiOutShortMsg(outHandle, 0x007F2890);

@@ -21,12 +21,13 @@
 #define IDC_HIHAT                       1006
 #define IDC_BROWSE                      1007
 #define IDC_FILENAME                    1008
+#define IDC_LOW_FSharp                  1015
+#define IDC_LOW_B                       1016
 #define IDC_LOW_E                       1009
 #define IDC_A                           1010
 #define IDC_D                           1011
 #define IDC_G                           1012
 #define IDC_B                           1013
-#define IDC_E                           1014
 #define IDC_HIGH_E                      1014
 #define IDC_STATIC                      -1
 

@@ -40,3 +40,4 @@
 *.log
 Debug/
 Release/
+*.aps
