@@ -1,7 +1,7 @@
 # GuitarTuner
 
 A simple MIDI-based guitar tuning note generator for Windows 7 and newer. It was 
-originally released at http://zetacentauri.com and was been downloaded more than
+originally released at http://zetacentauri.com and was downloaded more than
 60,000 times before being open-sourced.
 
 The goal with this application was to create the simplest guitar tuning note 
@@ -27,7 +27,7 @@ have that.
 
 A Visual Studio solution is included as GuitarTuner.sln.
 
-### Changelog
+## Changelog
 
 #### 1.02
 
@@ -38,11 +38,11 @@ they don't have it yet.
 
 #### 1.01
 
-Created Windows installer
+- Created Windows installer
 
 #### 1.0
 
-Initial Release
+- Initial Release
 
 ## Development Status
 
