@@ -24,7 +24,7 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\Guitar Tuner
 DefaultGroupName=Guitar Tuner
-LicenseFile=C:\Users\Xangis\code\GuitarTuner\Release\License.txt
+LicenseFile=C:\Users\Xangis\code\GuitarTuner\LICENSE
 OutputDir=C:\Users\Xangis\code\GuitarTuner\installer
 OutputBaseFilename=GuitarTuner1.02Setup
 SetupIconFile=C:\Users\Xangis\code\GuitarTuner\Release\Guitar32.ico
@@ -41,7 +41,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 Source: "C:\Users\Xangis\code\GuitarTuner\Release\Guitar32.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Xangis\code\GuitarTuner\Release\GuitarTuner.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Xangis\code\GuitarTuner\Release\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Xangis\code\GuitarTuner\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 Source: "C:\Users\Xangis\code\GuitarTuner\installer\vcredist2010_x86.exe"; DestDir: "{app}"; Flags: ignoreversion deleteafterinstall
 
