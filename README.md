@@ -17,6 +17,10 @@ https://github.com/Xangis/GuitarTuner/blob/master/installer/GuitarTuner1.02Setup
 If you prefer the 6-string tuner UI, an installer for version 1.01 is also in the 
 installer directory.
 
+For the same app, but for bass guitar, see here:
+
+https://github.com/Xangis/BassTuner
+
 The source code is licensed under the MIT license. See the LICENSE file for details.
 
 ## Building
