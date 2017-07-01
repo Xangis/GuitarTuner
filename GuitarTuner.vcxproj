@@ -109,7 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Guitar32.ico" />
-    <None Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
