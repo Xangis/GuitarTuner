@@ -1,4 +1,4 @@
-// DirectNoise.cpp : Defines the entry point for the application.
+// GuitarTuner.cpp : Defines the entry point for the application.
 //
 
 #include "stdafx.h"
@@ -42,7 +42,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	//	return FALSE;
 	//}
 
-	hAccelTable = LoadAccelerators(hInstance, (LPCTSTR)IDC_DIRECTNOISE);
+	hAccelTable = LoadAccelerators(hInstance, (LPCTSTR)IDC_GUITARTUNER);
 
 	HWND hWnd = CreateDialog(hInst, (LPCTSTR)IDD_GUITARTUNER, NULL, (DLGPROC)GuitarTuner);
 	ShowWindow( hWnd, nCmdShow );

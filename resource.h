@@ -1,12 +1,12 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by DirectNoise.rc
+// Used by GuitarTuner.rc
 //
 #define IDD_MIDIPLAYER                  102
 #define IDM_ABOUT                       104
 #define IDM_EXIT                        105
 #define IDS_APP_TITLE                   107
-#define IDC_DIRECTNOISE                 109
+#define IDC_GUITARTUNER                 109
 #define IDR_MAINFRAME                   128
 #define IDS_STRING130                   130
 #define IDI_ICON1                       132
